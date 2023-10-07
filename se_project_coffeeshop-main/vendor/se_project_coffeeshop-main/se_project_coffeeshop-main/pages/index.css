@@ -1,0 +1,248 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  font-family: "Inter", "Noto Serif", Arial, sans-serif, Times New Roman;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header {
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  background-image: url(/images/background_header.svg);
+  background-size: cover;
+  background-color: #ffffff;
+  position: relative;
+  display: flex;
+  background-position: center;
+  flex-direction: column;
+}
+
+.header__logo {
+  width: 125px;
+  height: 142px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.nav {
+  padding-top: 30px;
+  padding-right: 80px;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 20px;
+  list-style: none;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link:hover {
+}
+
+.header__title {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  max-width: 729px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 202px 80px 0;
+}
+
+.header__span-accent {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__description {
+  font-family: "Noto Serif";
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 683px;
+  position: relative;
+  margin: 24px 80px 0;
+}
+
+.header__image {
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  height: 568px;
+  width: 646px;
+}
+
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  position: relative;
+  padding: 40px 80px 40px;
+}
+
+.header__paragraph {
+  margin: 0;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
+
+.recipes {
+  background-color: #0a2750;
+  background-image: url(/images/background_recipes.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.recipes__title {
+  max-width: 580px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 100px 80px 0;
+}
+
+.recipes__subtitle {
+  max-width: 438px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 24px 80px 0;
+}
+
+.recipes__video {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+  margin: 80px 0 215px;
+}
+
+.recipes__iframe {
+  border: 0;
+}
+
+.recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
+}
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(/images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
+
+.reservation__title {
+  padding: 100px 0 80px;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form {
+  max-width: 385px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+
+.form {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+}
+
+.form__label {
+  padding-bottom: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__input {
+  border-radius: 4px;
+  block-size: 60px;
+  margin-bottom: 32px;
+  border: #838383;
+}
+
+.form__button {
+  margin-bottom: 32px;
+  border-radius: 4px;
+  block-size: 60px;
+  opacity: 1;
+  background-color: #2f80ed;
+  color: #ffffff;
+  border: none;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+  transition: opacity 0.1s ease-in;
+}
+
+.form__checkbox {
+  display: flex;
+  justify-content: center;
+}
+
+.form__checkbox_box {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  align-self: center;
+}
+
+::placeholder {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+  text-align: center;
+}
